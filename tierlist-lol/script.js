@@ -25,6 +25,18 @@ function consultar(){
 
     }else if(rota[1].checked){
         //Caçador
+        cam1.setAttribute('src', 'assets/jg1.png')
+        link1.setAttribute('href', 'https://www.op.gg/champion/karthus/statistics/jungle/build')
+
+        cam2.setAttribute('src', 'assets/jg2.png')
+        link2.setAttribute('href', 'https://www.op.gg/champion/reksai/statistics/jungle/build')
+
+        cam3.setAttribute('src', 'assets/jg3.png')
+        link3.setAttribute('href', 'https://www.op.gg/champion/jarvaniv/statistics/jungle/build')
+
+        cam4.setAttribute('src', 'assets/jg4.png')
+        link4.setAttribute('href', 'https://www.op.gg/champion/taliyah/statistics/jungle/build')
+        
     }else if(rota[2].checked){
         //Meio
     }else if(rota[3].checked){
