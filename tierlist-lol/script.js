@@ -53,6 +53,18 @@ function consultar(){
 
     }else if(rota[3].checked){
         //Atirador
+        cam1.setAttribute('src', 'assets/ad1.png')
+        link1.setAttribute('href', 'https://www.op.gg/champion/swain/statistics/adc/build')
+
+        cam2.setAttribute('src', 'assets/ad2.png')
+        link2.setAttribute('href', 'https://www.op.gg/champion/cassiopeia/statistics/adc/build')
+
+        cam3.setAttribute('src', 'assets/ad3.png')
+        link3.setAttribute('href', 'https://www.op.gg/champion/ziggs/statistics/adc/build')
+        
+        cam4.setAttribute('src', 'assets/ad4.png')
+        link4.setAttribute('href', 'https://www.op.gg/champion/vayne/statistics/adc/build')
+        
     }else{
         //Suporte
     }
