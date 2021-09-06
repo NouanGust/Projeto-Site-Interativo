@@ -9,12 +9,12 @@ function consultar(){
     var link2 = document.querySelector('a.link2')
     if(rota[0].checked){
         //Topo
-        cam1.setAttribute('src', 'topo1.jpg')
+        cam1.setAttribute('src', 'assets/topo1.jpg')
         link1.setAttribute('href', 'http://www.op.gg/champion/quinn/statistics/top/build')
-        cam2.setAttribute('src', 'topo2.png')
+        cam2.setAttribute('src', 'assets/topo2.png')
         link2.setAttribute('href', 'http://www.op.gg/champion/cassiopeia/statistics/top/build')
-        cam3.setAttribute('src', 'final.png')
-        cam4.setAttribute('src', 'final.png')
+        cam3.setAttribute('src', 'assets/final.png')
+        cam4.setAttribute('src', 'assets/final.png')
 
     }else if(rota[1].checked){
         //Caçador
