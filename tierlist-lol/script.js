@@ -36,9 +36,21 @@ function consultar(){
 
         cam4.setAttribute('src', 'assets/jg4.png')
         link4.setAttribute('href', 'https://www.op.gg/champion/taliyah/statistics/jungle/build')
-        
+
     }else if(rota[2].checked){
         //Meio
+        cam1.setAttribute('src', 'assets/meio1.png')
+        link1.setAttribute('href', 'https://www.op.gg/champion/aurelionsol/statistics/mid/build')
+
+        cam2.setAttribute('src', 'assets/meio2.png')
+        link2.setAttribute('href', 'https://www.op.gg/champion/talon/statistics/mid/build')
+
+        cam3.setAttribute('src', 'assets/meio3.png')
+        link3.setAttribute('href', 'https://www.op.gg/champion/riven/statistics/mid/build')
+
+        cam4.setAttribute('src', 'assets/meio4.png')
+        link4.setAttribute('href', 'https://www.op.gg/champion/anivia/statistics/mid/build')
+
     }else if(rota[3].checked){
         //Atirador
     }else{
