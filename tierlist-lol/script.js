@@ -64,9 +64,21 @@ function consultar(){
         
         cam4.setAttribute('src', 'assets/ad4.png')
         link4.setAttribute('href', 'https://www.op.gg/champion/vayne/statistics/adc/build')
-        
+
     }else{
         //Suporte
+        cam1.setAttribute('src', 'assets/sup1.png')
+        link1.setAttribute('href', 'https://www.op.gg/champion/zilean/statistics/support/build')
+
+        cam2.setAttribute('src', 'assets/sup2.png')
+        link2.setAttribute('href', 'https://www.op.gg/champion/maokai/statistics/support/build')
+
+        cam3.setAttribute('src', 'assets/sup3.png')
+        link3.setAttribute('href', 'https://www.op.gg/champion/rell/statistics/support/build')
+
+        cam4.setAttribute('src', 'assets/sup4.png')
+        link4.setAttribute('href', 'https://www.op.gg/champion/blitzcrank/statistics/support/build')
+        
     }
 
     
